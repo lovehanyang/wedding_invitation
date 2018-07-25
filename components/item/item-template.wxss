@@ -1,0 +1,47 @@
+/* 视频 */
+
+.movie-list {
+  box-shadow: 0 8rpx 16rpx 0 rgba(7, 17, 27, 0.1);
+  margin: 0 20rpx;
+  overflow: hidden;
+  border-radius: 8rpx;
+  margin-bottom: 30rpx;
+  background: #fff;
+}
+
+.movie-list .wrap-img {
+  height: 420rpx;
+  background-color: #ccc;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-list .wrap-img .btn {
+  width: 90rpx;
+  height: 90rpx;
+  background-image: url(http://i.gtimg.cn/qqlive/images/20150911/i1441959133_1.jpg);
+  background-size: 90rpx;
+}
+
+.movie-list .video-des {
+  padding: 10px;
+}
+
+.movie-list .video_title {
+  display: block;
+  font-size: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #333;
+  text-overflow: ellipsis;
+}
+
+.movie-list .video-des .time {
+  font-size: 13px;
+  color: #979797;
+}
