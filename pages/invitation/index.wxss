@@ -1,9 +1,10 @@
 /* pages/invitation/index.wxss */
 .container {
   color: #643c1b;
-  background: url('https://wx.qiaker.cn/img/bg_inv.jpg') no-repeat center;
+  background-image: url('/images/invite_page.png');
   background-size: cover;
 }
+/* background: url('https://wx.qiaker.cn/img/bg_inv.jpg') no-repeat center */
 .date {
   text-align: center;
   font-size: 30rpx;

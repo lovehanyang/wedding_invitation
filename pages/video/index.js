@@ -11,27 +11,27 @@ Page({
   data: {
     userInfo: {},
 
-    movieList: {
+    movieList: 
+      
       [{
-          "other": "",
-          "time": 1532519734589,
-          "title": "韩洋阚旭纪录片测试",
-          "vid": "e0354z3cqjp"
+          other: "",
+          time: 1532519734589,
+          title: "韩洋阚旭纪录片测试",
+          vid: "e0354z3cqjp"
         },
         {
-          "other": "",
-          "time": 1532519734589,
-          "title": "韩洋阚旭纪录片测试",
-          "vid": "e0354z3cqjp"
+          other: "",
+          time: 1532519734589,
+          title: "韩洋阚旭纪录片测试",
+          vid: "e0354z3cqjp"
         },
         {
-          "other": "",
-          "time": 1532519734589,
-          "title": "韩洋阚旭纪录片测试",
-          "vid": "e0354z3cqjp"
+          other: "",
+          time: 1532519734589,
+          title: "韩洋阚旭纪录片测试",
+          vid: "e0354z3cqjp"
         }
       ]
-    },
   },
 
   /**

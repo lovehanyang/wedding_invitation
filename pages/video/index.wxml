@@ -3,7 +3,7 @@
 
 
   <view class="face" wx:for="{{movieList}}" wx:key="user">
-    <view class='movie-list' catchtap="openDetail" data-list="{{movieList}}">
+    <view class='movie-list' catchtap="openDetail" >
       <txv-video vid="e0354z3cqjp" playerid="txv1" autoplay="{{false}}" />
       <view class='video-des'>
         <text class='video_title'>标题:{{item.title}}</text>
