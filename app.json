@@ -2,8 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/invitation/index",
+    "pages/video/index",
     "pages/map/index",
-    "pages/bless/index",
     "pages/chat/index"
   ],
   "window":{
@@ -32,16 +32,16 @@
         "text": "邀请函"
       },
       {
-        "pagePath": "pages/map/index",
+        "pagePath": "pages/video/index",
         "iconPath": "images/3.png",
         "selectedIconPath": "images/3.png",
-        "text": "酒店导航"
+        "text": "宣传片"
       },
       {
-        "pagePath": "pages/bless/index",
+        "pagePath": "pages/map/index",
         "iconPath": "images/4.png",
         "selectedIconPath": "images/4.png",
-        "text": "好友祝福"
+        "text": "签到处"
       },
       {
         "pagePath": "pages/chat/index",

@@ -1,0 +1,4 @@
+<!--pages/map/index.wxml-->
+<view class="container">
+ <txv-video vid="e0354z3cqjp" playerid="txv1" autoplay="{{true}}" />
+</view>

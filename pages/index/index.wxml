@@ -14,9 +14,6 @@
   </view>
 </view>
 <view class="container">
-
-  <txv-video vid="e0354z3cqjp" playerid="txv1" autoplay="{{true}}" />
-
   <view class="swiper">
     <swiper indicator-dots="false" autoplay="false" interval="3000" duration="1000" vertical='true' circular="true">
       <!-- <swiper-item wx:for="{{slideList}}" wx:key="slide" wx:id="id" wx:if="{{item.image}}">
