@@ -9,7 +9,7 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Just Married",
+    "navigationBarTitleText": "韩洋❤阚旭 Married",
     "navigationBarTextStyle":"black",
     "enablePullDownRefresh":false
   },
@@ -23,7 +23,7 @@
         "pagePath": "pages/index/index",
         "iconPath": "images/1.png",
         "selectedIconPath": "images/1.png",
-        "text": "首页"
+        "text": "婚纱照"
       },
       {
         "pagePath": "pages/invitation/index",
@@ -50,5 +50,13 @@
         "text": "留言评论"
       }
     ]
+  },
+  "plugins": {
+    "tencentvideo": {
+      "version": "1.1.1",
+      "provider": "wxa75efa648b60994b"
+    }
   }
+
+
 }

@@ -1,5 +1,6 @@
 //index.js
 //获取应用实例
+const txvContext = requirePlugin("tencentvideo");
 const app = getApp()
 var server = app.globalData.server;
 var appid = app.globalData.appid;
@@ -84,7 +85,7 @@ Page({
     } else {
       wx.playBackgroundAudio({
         dataUrl: this.data.music_url,
-        title: '',
+        title: 'join lovehanyang’s wedding',
         coverImgUrl: ''
       })
       this.setData({
