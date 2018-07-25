@@ -21,8 +21,10 @@ Page({
         'Accept': 'application/json'
       },
       success: function (res) {
-        var lng = res.data.mainInfo.lng
-        var lat = res.data.mainInfo.lat   
+        // var lng = res.data.mainInfo.lng
+        // var lat = res.data.mainInfo.lat   
+        var lng = "114.842384"
+        var lat = "38.023914" 
         console.log(lat)     
         wx.openLocation({
           latitude: parseFloat(lat),

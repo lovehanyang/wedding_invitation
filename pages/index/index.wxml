@@ -18,9 +18,12 @@
   <txv-video vid="e0354z3cqjp" playerid="txv1" autoplay="{{true}}" />
 
   <view class="swiper">
-    <swiper indicator-dots="false" autoplay="false" interval="5000" duration="1000">
-      <swiper-item wx:for="{{slideList}}" wx:key="slide" wx:id="id" wx:if="{{item.image}}">
+    <swiper indicator-dots="false" autoplay="false" interval="3000" duration="1000" vertical='true' circular="true">
+      <!-- <swiper-item wx:for="{{slideList}}" wx:key="slide" wx:id="id" wx:if="{{item.image}}">
         <image src="{{item.image}}" class="slide-image" mode="aspectFill" />
+      </swiper-item> -->
+      <swiper-item wx:for="{{testimgUrls}}" wx:key="slide" wx:id="id" wx:if="{{item}}">
+        <image src="{{item}}" class="slide-image" mode="aspectFill" />
       </swiper-item>
     </swiper>
   </view>
