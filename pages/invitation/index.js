@@ -114,12 +114,12 @@ Page({
   },
   callhe: function (event) {
     wx.makePhoneCall({
-      phoneNumber: this.data.mainInfo.he_tel
+      phoneNumber: 18612643487
     })
   },
   callshe: function (event) {
     wx.makePhoneCall({
-      phoneNumber: this.data.mainInfo.she_tel
+      phoneNumber: 15041170858
     })
   }
 })

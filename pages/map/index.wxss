@@ -37,11 +37,8 @@
 }
 
 .zan {
-  width: 400rpx;
-}
-
-.share {
-  width: 200rpx;
+  margin: 0 20rpx;
+  width: 600rpx;
 }
 
 .bless_img {

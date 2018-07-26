@@ -1,16 +1,19 @@
 /* pages/invitation/index.wxss */
+
 .container {
-  color: #643c1b;
-  background-image: url('/images/invite_page.png');
+  background: url('http://pcgm4rcvg.bkt.clouddn.com/invite_page_new.jpg') no-repeat center;
   background-size: cover;
+  width: 750rpx;
+  height: 100vh;
 }
-/* background: url('https://wx.qiaker.cn/img/bg_inv.jpg') no-repeat center */
+
 .date {
   text-align: center;
   font-size: 30rpx;
   line-height: 50rpx;
   margin-top: 20rpx;
 }
+
 .name {
   width: 400rpx;
   margin: 0 auto;
@@ -18,6 +21,7 @@
   overflow: hidden;
   margin-top: 20rpx;
 }
+
 .savethedate {
   width: 200rpx;
   height: 200rpx;
@@ -25,10 +29,12 @@
   margin-top: 20rpx;
   margin-bottom: 20rpx;
 }
+
 .savethedate image {
   width: 200rpx;
   height: 200rpx;
 }
+
 .diamond {
   width: 400rpx;
   height: 59rpx;
@@ -36,28 +42,30 @@
   margin-top: 20rpx;
   margin-bottom: 20rpx;
 }
+
 .diamond image {
   width: 400rpx;
   height: 59rpx;
 }
+
 .address {
   text-align: center;
-  padding: 20rpx; 
+  padding: 20rpx;
   font-size: 34rpx;
   line-height: 40rpx;
 }
+
 .s_icon {
   width: 60rpx;
   height: 60rpx;
   margin: 0 auto;
-  margin-top: 30rpx; 
+  margin-top: 30rpx;
 }
 
 .s_icon image {
   width: 60rpx;
   height: 60rpx;
 }
-
 
 .words {
   width: 400rpx;
@@ -66,12 +74,16 @@
   margin-top: 20rpx;
   margin-bottom: 20rpx;
 }
+
 .words image {
   width: 400rpx;
   height: 96rpx;
 }
+
 .tel {
-  width: 500rpx;
+  position: fixed;
+  bottom: 0;
+  width: 750rpx;
   margin: 0 auto;
   min-height: 0;
   overflow: hidden;
@@ -81,23 +93,26 @@
   margin-top: 20rpx;
   margin-bottom: 20rpx;
 }
+
 .tel_he {
   width: 200rpx;
   float: left;
 }
+
 .tel_she {
   width: 200rpx;
   float: right;
 }
+
 .call {
   width: 80rpx;
   height: 80rpx;
   display: block;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
-.call image{
+
+.call image {
   width: 80rpx;
   height: 80rpx;
   margin-bottom: 10rpx;
 }
-

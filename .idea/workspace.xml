@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b13232de-6b42-4b2c-9c27-99c666653fbb" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/he.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/she.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/invitation/index.json" afterPath="$PROJECT_DIR$/pages/invitation/index.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/video/index.wxml" afterPath="$PROJECT_DIR$/pages/video/index.wxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/chat/index.wxml" afterPath="$PROJECT_DIR$/pages/chat/index.wxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/chat/index.wxss" afterPath="$PROJECT_DIR$/pages/chat/index.wxss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/invitation/index.js" afterPath="$PROJECT_DIR$/pages/invitation/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/invitation/index.wxml" afterPath="$PROJECT_DIR$/pages/invitation/index.wxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/invitation/index.wxss" afterPath="$PROJECT_DIR$/pages/invitation/index.wxss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/map/index.wxml" afterPath="$PROJECT_DIR$/pages/map/index.wxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/map/index.wxss" afterPath="$PROJECT_DIR$/pages/map/index.wxss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/video/index.wxss" afterPath="$PROJECT_DIR$/pages/video/index.wxss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,7 +32,21 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
               <caret line="1" column="49" lean-forward="false" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
-              <folding />
+              <folding>
+                <marker date="1532569971366" expanded="true" signature="204:653" ph="{...}" />
+                <marker date="1532569971366" expanded="true" signature="658:687" ph="/** 生命周期函数--监听页面加载 ...*/" />
+                <marker date="1532569971366" expanded="true" signature="716:879" ph="{...}" />
+                <marker date="1532569971366" expanded="true" signature="758:871" ph="{...}" />
+                <marker date="1532569971366" expanded="true" signature="884:917" ph="/** 生命周期函数--监听页面初次渲染完成 ...*/" />
+                <marker date="1532569971366" expanded="true" signature="951:980" ph="/** 生命周期函数--监听页面显示 ...*/" />
+                <marker date="1532569971366" expanded="true" signature="1013:1042" ph="/** 生命周期函数--监听页面隐藏 ...*/" />
+                <marker date="1532569971366" expanded="true" signature="1075:1104" ph="/** 生命周期函数--监听页面卸载 ...*/" />
+                <marker date="1532569971366" expanded="true" signature="1128:1134" ph="{...}" />
+                <marker date="1532569971366" expanded="true" signature="1139:1174" ph="/** 页面相关事件处理函数--监听用户下拉动作 ...*/" />
+                <marker date="1532569971366" expanded="true" signature="1207:1213" ph="{...}" />
+                <marker date="1532569971366" expanded="true" signature="1218:1246" ph="/** 页面上拉触底事件的处理函数 ...*/" />
+                <marker date="1532569971366" expanded="true" signature="1275:1281" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,11 +91,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.wxml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.wxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/video/index.wxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="308">
+              <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.wxss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/index/index.wxss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.wxss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/invitation/index.wxss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.wxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/invitation/index.wxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -85,16 +136,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/chat/index.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -122,6 +163,8 @@
         <option value="$PROJECT_DIR$/pages/video/index.json" />
         <option value="$PROJECT_DIR$/pages/index/index.wxml" />
         <option value="$PROJECT_DIR$/pages/video/index.wxml" />
+        <option value="$PROJECT_DIR$/pages/invitation/index.wxml" />
+        <option value="$PROJECT_DIR$/pages/invitation/index.wxss" />
       </list>
     </option>
   </component>
@@ -211,6 +254,28 @@
               <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnceLove-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnceLove-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="invitation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -227,6 +292,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnceLove-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnceLove-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -332,25 +411,26 @@
       <workItem from="1532426682324" duration="772000" />
       <workItem from="1532511800531" duration="2392000" />
       <workItem from="1532518345009" duration="51000" />
+      <workItem from="1532596264435" duration="1697000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3215000" />
+    <option name="totallyTimeSpent" value="4912000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13645943" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -375,7 +455,99 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="49" lean-forward="false" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+          <folding>
+            <marker date="1532569971366" expanded="true" signature="204:653" ph="{...}" />
+            <marker date="1532569971366" expanded="true" signature="658:687" ph="/** 生命周期函数--监听页面加载 ...*/" />
+            <marker date="1532569971366" expanded="true" signature="716:879" ph="{...}" />
+            <marker date="1532569971366" expanded="true" signature="758:871" ph="{...}" />
+            <marker date="1532569971366" expanded="true" signature="884:917" ph="/** 生命周期函数--监听页面初次渲染完成 ...*/" />
+            <marker date="1532569971366" expanded="true" signature="951:980" ph="/** 生命周期函数--监听页面显示 ...*/" />
+            <marker date="1532569971366" expanded="true" signature="1013:1042" ph="/** 生命周期函数--监听页面隐藏 ...*/" />
+            <marker date="1532569971366" expanded="true" signature="1075:1104" ph="/** 生命周期函数--监听页面卸载 ...*/" />
+            <marker date="1532569971366" expanded="true" signature="1128:1134" ph="{...}" />
+            <marker date="1532569971366" expanded="true" signature="1139:1174" ph="/** 页面相关事件处理函数--监听用户下拉动作 ...*/" />
+            <marker date="1532569971366" expanded="true" signature="1207:1213" ph="{...}" />
+            <marker date="1532569971366" expanded="true" signature="1218:1246" ph="/** 页面上拉触底事件的处理函数 ...*/" />
+            <marker date="1532569971366" expanded="true" signature="1275:1281" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/map/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/video/index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/chat/index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/video/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/video/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="49" lean-forward="false" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+          <folding>
+            <marker date="1532569971366" expanded="true" signature="204:653" ph="{...}" />
+            <marker date="1532569971366" expanded="true" signature="658:687" ph="/** 生命周期函数--监听页面加载 ...*/" />
+            <marker date="1532569971366" expanded="true" signature="716:879" ph="{...}" />
+            <marker date="1532569971366" expanded="true" signature="758:871" ph="{...}" />
+            <marker date="1532569971366" expanded="true" signature="884:917" ph="/** 生命周期函数--监听页面初次渲染完成 ...*/" />
+            <marker date="1532569971366" expanded="true" signature="951:980" ph="/** 生命周期函数--监听页面显示 ...*/" />
+            <marker date="1532569971366" expanded="true" signature="1013:1042" ph="/** 生命周期函数--监听页面隐藏 ...*/" />
+            <marker date="1532569971366" expanded="true" signature="1075:1104" ph="/** 生命周期函数--监听页面卸载 ...*/" />
+            <marker date="1532569971366" expanded="true" signature="1128:1134" ph="{...}" />
+            <marker date="1532569971366" expanded="true" signature="1139:1174" ph="/** 页面相关事件处理函数--监听用户下拉动作 ...*/" />
+            <marker date="1532569971366" expanded="true" signature="1207:1213" ph="{...}" />
+            <marker date="1532569971366" expanded="true" signature="1218:1246" ph="/** 页面上拉触底事件的处理函数 ...*/" />
+            <marker date="1532569971366" expanded="true" signature="1275:1281" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -557,7 +729,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="49" lean-forward="false" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
-          <folding />
+          <folding>
+            <marker date="1532569971366" expanded="true" signature="204:653" ph="{...}" />
+            <marker date="1532569971366" expanded="true" signature="658:687" ph="/** 生命周期函数--监听页面加载 ...*/" />
+            <marker date="1532569971366" expanded="true" signature="716:879" ph="{...}" />
+            <marker date="1532569971366" expanded="true" signature="758:871" ph="{...}" />
+            <marker date="1532569971366" expanded="true" signature="884:917" ph="/** 生命周期函数--监听页面初次渲染完成 ...*/" />
+            <marker date="1532569971366" expanded="true" signature="951:980" ph="/** 生命周期函数--监听页面显示 ...*/" />
+            <marker date="1532569971366" expanded="true" signature="1013:1042" ph="/** 生命周期函数--监听页面隐藏 ...*/" />
+            <marker date="1532569971366" expanded="true" signature="1075:1104" ph="/** 生命周期函数--监听页面卸载 ...*/" />
+            <marker date="1532569971366" expanded="true" signature="1128:1134" ph="{...}" />
+            <marker date="1532569971366" expanded="true" signature="1139:1174" ph="/** 页面相关事件处理函数--监听用户下拉动作 ...*/" />
+            <marker date="1532569971366" expanded="true" signature="1207:1213" ph="{...}" />
+            <marker date="1532569971366" expanded="true" signature="1218:1246" ph="/** 页面上拉触底事件的处理函数 ...*/" />
+            <marker date="1532569971366" expanded="true" signature="1275:1281" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -587,8 +773,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/video/index.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state relative-caret-position="308">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/invitation/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/invitation/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding />
         </state>
       </provider>

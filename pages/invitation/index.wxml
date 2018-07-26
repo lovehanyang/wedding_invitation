@@ -1,36 +1,23 @@
 <!--pages/invitation/index.wxml-->
 <view class="container">
   <view class="savethedate">
-    <image src="/images/save_the_date_pu.gif" width="100%"/>
+    <image src="/images/save_the_date_pu.gif" height="100%" />
   </view>
   <view class="name">
     <span class="fl">{{mainInfo.he}}</span>
-    <span class="fr">{{mainInfo.she}}</span>  
-  </view>
-  <view class="diamond">
-    <image src="/images/diamond-divider.png" width="100%"/>
-  </view>
-  <view class="date">
-    <view>本人兹定于 {{mainInfo.date}}</view>
-    <view>农历 {{mainInfo.lunar}}</view>
-    <view>举办婚礼</view>
-  </view>
-  <view class='detail'>
-    <view class="s_icon"><image src="/images/hotel.png"/></view>
-    <view class="address">席设:{{mainInfo.hotel}}</view>
-    <view class="s_icon"><image src="/images/address.png"/></view>
-    <view class="address">地址:{{mainInfo.address}}</view>
-  </view>
-  <view class="words">
-    <image src="/images/words.png" width="100%"/>
+    <span class="fr">{{mainInfo.she}}</span>
   </view>
   <view class="tel">
-    <view class="tel_he" wx:if="{{mainInfo.he_tel}}">
-      <view class="call" bindtap="callhe"><image src="/images/he.png" width="100%"/></view> 
+    <view class="tel_he">
+      <view class="call" bindtap="callhe">
+        <image src="/images/he.jpg" width="100%" />
+      </view>
       呼叫新郎
     </view>
-    <view class="tel_she" wx:if="{{mainInfo.she_tel}}">
-      <view class="call" bindtap="callshe"><image src="/images/she.png" width="100%"/></view>
+    <view class="tel_she">
+      <view class="call" bindtap="callshe">
+        <image src="/images/she.jpg" width="100%" />
+      </view>
       呼叫新娘
     </view>
   </view>

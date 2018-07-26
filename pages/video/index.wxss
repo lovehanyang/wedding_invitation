@@ -1,8 +1,8 @@
 .movie-list{
-  box-shadow: 0 8rpx 16rpx 0 rgba(7,17,27,.1);
+  box-shadow: 0 8rpx 17rpx 0 rgba(7,17,27,.1);
   margin: 0 20rpx;
   overflow: hidden;
-  border-radius: 8rpx;
+  border-radius: 10rpx;
   margin-bottom: 30rpx;
   background: #fff;
 }
