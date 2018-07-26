@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b13232de-6b42-4b2c-9c27-99c666653fbb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/he.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/she.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/chat/index.wxml" afterPath="$PROJECT_DIR$/pages/chat/index.wxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/chat/index.wxss" afterPath="$PROJECT_DIR$/pages/chat/index.wxss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/invitation/index.js" afterPath="$PROJECT_DIR$/pages/invitation/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/invitation/index.wxml" afterPath="$PROJECT_DIR$/pages/invitation/index.wxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/invitation/index.wxss" afterPath="$PROJECT_DIR$/pages/invitation/index.wxss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/map/index.wxml" afterPath="$PROJECT_DIR$/pages/map/index.wxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/map/index.wxss" afterPath="$PROJECT_DIR$/pages/map/index.wxss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/video/index.wxss" afterPath="$PROJECT_DIR$/pages/video/index.wxss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -411,15 +401,15 @@
       <workItem from="1532426682324" duration="772000" />
       <workItem from="1532511800531" duration="2392000" />
       <workItem from="1532518345009" duration="51000" />
-      <workItem from="1532596264435" duration="1697000" />
+      <workItem from="1532596264435" duration="1702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4912000" />
+    <option name="totallyTimeSpent" value="4917000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13645943" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
