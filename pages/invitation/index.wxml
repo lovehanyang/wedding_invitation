@@ -3,10 +3,6 @@
   <view class="savethedate">
     <image src="/images/save_the_date_pu.gif" height="100%" />
   </view>
-  <view class="name">
-    <span class="fl">{{mainInfo.he}}</span>
-    <span class="fr">{{mainInfo.she}}</span>
-  </view>
   <view class="tel">
     <view class="tel_he">
       <view class="call" bindtap="callhe">

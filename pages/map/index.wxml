@@ -4,19 +4,4 @@
   <view class="map">
     <map id="map" longitude="{{lng}}" latitude="{{lat}}" scale="18" controls="{{controls}}" markers="{{markers}}" bindmarkertap="markertap" show-location style="width: 750rpx; height: 60vh"></map>
   </view>
-  <view class="bless_img">
-    <image src="/images/mail.png" />
-  </view>
-  <view class="title" wx:if="{{zanNum > 0}}">已收到 {{zanNum}} 位好友的祝福</view>
-  <view class="title" wx:if="{{zanNum == 0}}"> 点击下方按钮可送上祝福 </view>
-  <view class="friends">
-    <view class="face" wx:for="{{zanLog}}" wx:key="user">
-      <image src="{{item.face}}" />
-    </view>
-  </view>
-  <view class="btn_zone">
-    <view class="zan fl">
-      <button type="primary" bindtap='zan'>送上祝福</button>
-    </view>
-  </view>
 </view>

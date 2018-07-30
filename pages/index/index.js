@@ -10,9 +10,19 @@ Page({
     isPlayingMusic: true,
 
     testimgUrls: [
-      'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
+      'http://pcgm4rcvg.bkt.clouddn.com/marry/img1.jpg',
+      'http://pcgm4rcvg.bkt.clouddn.com/marry/img2.jpg',
+      'http://pcgm4rcvg.bkt.clouddn.com/marry/img3.jpg',
+      'http://pcgm4rcvg.bkt.clouddn.com/marry/img4.jpg',
+      'http://pcgm4rcvg.bkt.clouddn.com/marry/img5.jpg',
+      'http://pcgm4rcvg.bkt.clouddn.com/marry/img6.jpg',
+      'http://pcgm4rcvg.bkt.clouddn.com/marry/img7.jpg',
+      'http://pcgm4rcvg.bkt.clouddn.com/marry/img8.jpg',
+      'http://pcgm4rcvg.bkt.clouddn.com/marry/img9.jpg',
+      'http://pcgm4rcvg.bkt.clouddn.com/marry/img10.jpg',
+      'http://pcgm4rcvg.bkt.clouddn.com/marry/img11.jpg',
+      'http://pcgm4rcvg.bkt.clouddn.com/marry/img12.jpg',
+  
     ],
 
 

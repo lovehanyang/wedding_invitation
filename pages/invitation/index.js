@@ -27,24 +27,6 @@ Page({
         })
       }
     })
-
-    wx.request({
-      url: server,
-      method: 'GET',
-      data: { 'c': 'info', 'appid': appid },
-      header: {
-        'Accept': 'application/json'
-      },
-      success: function (res) {
-        // console.log(res.data)
-        that.setData({
-          mainInfo: res.data.mainInfo,
-          zanLog: res.data.zanLog,
-          zanNum: res.data.zanNum,
-          slideList: res.data.slideList
-        });
-      }
-    })
   },
 
   /**
@@ -114,12 +96,12 @@ Page({
   },
   callhe: function (event) {
     wx.makePhoneCall({
-      phoneNumber: 18612643487
+      phoneNumber: '18612643487'
     })
   },
   callshe: function (event) {
     wx.makePhoneCall({
-      phoneNumber: 15041170858
+      phoneNumber: '15041170858'
     })
   }
 })
