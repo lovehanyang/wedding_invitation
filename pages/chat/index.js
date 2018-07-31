@@ -1,6 +1,5 @@
 // pages/chat/index.js
 const app = getApp()
-var server = app.globalData.server;
 var appid = app.globalData.appid;
 
 Page({
@@ -24,23 +23,6 @@ Page({
         that.setData({
           userInfo: res.userInfo
         })
-      }
-    })
-
-    wx.request({
-      url: server,
-      method: 'GET',
-      data: { 'c': 'info', 'appid': appid },
-      header: {
-        'Accept': 'application/json'
-      },
-      success: function (res) {
-        console.log(res.data)
-        that.setData({
-          mainInfo: res.data.mainInfo,
-          chatList: res.data.chatList,
-          chatNum: res.data.chatNum
-        });
       }
     })
   },
@@ -125,7 +107,7 @@ Page({
       var face = userInfo.avatarUrl;
       var words = that.data.inputValue;
       wx.request({
-        url: server,
+        url: "",
         data: { 'c': 'send', 'appid': appid, 'nickname': name, 'face': face , 'words': words },
         header: {},
         method: "GET",

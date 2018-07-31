@@ -1,5 +1,10 @@
 <!--pages/chat/index.wxml-->
 <view class="container">
+
+<view class="WxComment">
+  <WxComment tipOne="Markdown " tipTwo="will be supported, Powered by yicm." submitBtnText="回复" articleID="{{article_id}}" contentLen='1' theme="light"></WxComment>
+</view>
+
   <view wx:if="{{chatNum > 0}}">
     <view class="chat_list" wx:for="{{chatList}}" wx:key="user">
       <view class="chat_face">

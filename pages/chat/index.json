@@ -1,3 +1,6 @@
 {
-    "navigationBarTitleText": "留言评论"
+    "navigationBarTitleText": "留言评论",
+    "usingComponents": {
+      "WxComment": "/WxComment/component/WxComment/WxComment"
+    }
 }
