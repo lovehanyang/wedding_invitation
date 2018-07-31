@@ -92,16 +92,3 @@ page {
   float: right;
 }
 
-.befirst {
-  width: 600rpx;
-  height: 450rpx;
-  margin: 0 auto;
-  min-height: 0;
-  overflow: hidden;
-  margin-top: 200rpx;
-}
-
-.befirst image {
-  width: 600rpx;
-  height: 450rpx;
-}

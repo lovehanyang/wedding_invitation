@@ -9,7 +9,8 @@ Page({
    */
   data: {
     userInfo: {},
-    inputValue:''
+    inputValue:'',
+    article_id:'1'
   },
 
   /**
@@ -132,13 +133,6 @@ Page({
             })
           }
         }
-      })
-    }else{
-      //Catch Error
-      wx.showModal({
-        title: '提示',
-        content: '您还没有填写内容',
-        showCancel: false
       })
     }
     that.setData({

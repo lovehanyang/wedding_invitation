@@ -12,13 +12,6 @@ image {
   color: white;
 }
 
-.hide {
-  display: none;
-}
-
-.show {
-  display: block;
-}
 
 .title_box {
   display: flex;
@@ -161,7 +154,7 @@ image {
 }
 
 .views_text {
-  width: 35rpx;
+  width: 200rpx;
   height: 35rpx;
   color: #bfbfbf;
   font-size: 22rpx;
@@ -206,33 +199,6 @@ image {
   margin-left: 10rpx;
 }
 
-.comment_display {
-  width: 720rpx;
-  height: 300rpx;
-  box-sizing: border-box;
-  position: relative;
-  border: 1px solid #dadada;
-  margin: 20rpx auto 20rpx auto;
-  overflow: hidden;
-}
-
-.comment_textarea {
-  box-sizing: border-box;
-  position: relative;
-  margin: 2rpx auto 2rpx auto;
-  overflow: hidden;
-  width: 700rpx;
-  height: 220rpx;
-  border: 1px #dadada;
-  border-style: none none dashed none;
-}
-
-.comment_submit_display {
-  display: flex;
-  margin: 5rpx auto 5rpx auto;
-  width: 700rpx;
-}
-
 .comment_submit_tip {
   width: 550rpx;
   font-size: 22rpx;
@@ -243,12 +209,6 @@ image {
 
 .markdown_tip {
   color: #ee9a49;
-}
-
-.commit_submit_btn {
-  width: 150rpx;
-  height: 65rpx;
-  margin: 2rpx auto 2rpx auto;
 }
 
 .sub_comment_list_box {
@@ -266,4 +226,68 @@ image {
   display: flex;
   flex-direction: column;
   width: 510rpx;
+}
+
+.hide {
+    position: fixed;
+    display: none;
+}
+
+.show {
+  display: block;
+}
+
+.comment_submit_display {
+  
+  width: 150rpx;
+  height: 80rpx;
+  font-size: 36rpx;
+  line-height: 80rpx;
+  float: right;
+}
+
+.comment_display {
+  width: 700rpx;
+  padding: 25rpx;
+  background-color: #fff;
+  min-height: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+
+.comment_textarea {
+ width: 500rpx;
+  padding: 10rpx;
+  font-size: 30rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  float: left;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.commit_submit_btn {
+  width: 150rpx;
+  height: 80rpx;
+  font-size: 36rpx;
+  line-height: 80rpx;
+  float: right;
+}
+
+.befirst {
+  width: 600rpx;
+  height: 450rpx;
+  margin: 0 auto;
+  min-height: 0;
+  overflow: hidden;
+  margin-top: 200rpx;
+}
+
+.befirst image {
+  width: 600rpx;
+  height: 450rpx;
 }

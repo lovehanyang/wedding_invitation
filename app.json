@@ -41,7 +41,7 @@
         "pagePath": "pages/map/index",
         "iconPath": "images/4.png",
         "selectedIconPath": "images/4.png",
-        "text": "签到处"
+        "text": "地图"
       },
       {
         "pagePath": "pages/chat/index",
