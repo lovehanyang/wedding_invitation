@@ -3,8 +3,9 @@
 
 
   <view class="face" wx:for="{{movieList}}" wx:key="user">
-    <view class='movie-list' catchtap="openDetail" >
-      <txv-video vid="e0354z3cqjp" playerid="txv1" autoplay="{{false}}" />
+    <view class='movie-list' catchtap="openDetail">
+
+      <video class="myVideo" src='{{item.src}}' objectFit="fill"></video>
       <view class='video-des'>
         <text class='video_title'>标题:{{item.title}}</text>
         <text class='video_time'>时间：{{item.create_time}}</text>
@@ -13,3 +14,6 @@
   </view>
 
 </view>
+
+
+<!-- <txv-video vid="e0354z3cqjp" playerid="txv1" autoplay="{{false}}" /> -->
