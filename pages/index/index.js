@@ -1,13 +1,14 @@
 //index.js
 //获取应用实例
 const app = getApp()
-var server = app.globalData.server;
 var appid = app.globalData.appid;
 
 Page({
   data: {
     userInfo: {},
+    music_url: 'http://pcgm4rcvg.bkt.clouddn.com/marry/music/yudao.aac',
     isPlayingMusic: true,
+  
 
     testimgUrls: [
       'http://pcgm4rcvg.bkt.clouddn.com/marry/img1.jpg',
@@ -38,30 +39,10 @@ Page({
       }
     })
 
-    wx.request({
-      url: server,
-      method: 'GET',
-      data: {
-        'c': 'info',
-        'appid': appid
-      },
-      header: {
-        'Accept': 'application/json'
-      },
-      success: function(res) {
-        // console.log(res.data)
-        wx.playBackgroundAudio({
-          dataUrl: res.data.music_url,
-          title: '',
-          coverImgUrl: ''
-        })
-
-        that.setData({
-          mainInfo: res.data.mainInfo,
-          slideList: res.data.slideList,
-          music_url: res.data.music_url
-        });
-      }
+    wx.playBackgroundAudio({
+      dataUrl: this.data.music_url,
+      title: '',
+      coverImgUrl: ''
     })
   },
   onReady: function() {
