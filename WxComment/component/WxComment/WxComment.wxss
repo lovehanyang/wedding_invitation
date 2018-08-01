@@ -31,7 +31,6 @@ image {
   margin-top: 30rpx;
   padding: 30rpx;
   min-height: 0;
-  overflow: hidden;
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 5px;
   box-shadow: 0 0 20px rgba(190, 77, 43, 0.2);
@@ -51,13 +50,14 @@ image {
 .avatar_button {
   background: none;
   border: none;
-  padding: 1rpx 5rpx 1rpx 1rpx;
+  padding: 1rpx 20rpx 1rpx 1rpx;
   margin: 1rpx 5rpx 0rpx 5rpx;
 }
 
 .avatar_button::after {
   border: none;
   outline: none;
+
 }
 
 .comment_total_box {
@@ -68,9 +68,9 @@ image {
 
 .comment_content_box {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
-  margin-bottom: 15rpx;
+  margin-bottom: 17rpx;
 }
 
 .comment_meta {
@@ -80,16 +80,24 @@ image {
   justify-content: flex-start;
   width: 100%;
   margin-bottom: 8rpx;
-  height: 100rpx;
 }
 
 .comment_nickname {
   display: flex;
+  width: 100%;
   margin-right: 20rpx;
-  margin-left: 25rpx;
+  margin-left: 20rpx;
   font-size: 26rpx;
   font-weight: 600;
   color: #3f9f94;
+}
+
+.comment_content {
+  word-break:break-all;
+  font-size: 32rpx;
+  margin-left: 25rpx;
+  width: 100%;
+  color: #6f6f6f;
 }
 
 .commnet_date {
@@ -99,24 +107,22 @@ image {
 }
 
 .comment_zan {
+  margin-left: 20rpx;
   display: flex;
+  flex-direction: row;
+  
 }
 
 .comment_zan image {
-  width: 35rpx;
-  height: 35rpx;
+  width: 30rpx;
+  height: 30rpx;
 }
 
 .comment_zan_num {
   color: #425888;
   font-size: 24rpx;
-  height: 35rpx;
-  line-height: 35rpx;
-}
-
-.comment_content {
-  width: 100%;
-  color: #6f6f6f;
+  height: 30rpx;
+  line-height: 30rpx;
 }
 
 .no_comment {
@@ -213,9 +219,10 @@ image {
 }
 
 .sub_comment_list_box {
+  margin-left: 70rpx;
   display: flex;
   flex-direction: column;
-  width: 610rpx;
+ 
 }
 
 .sub_comment_display_box {
@@ -248,7 +255,7 @@ image {
 
 .comment_display {
   display: flex;
-  align-items:Center;
+  align-items: Center;
   justify-content: space-between;
   width: 700rpx;
   padding: 25rpx;
