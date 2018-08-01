@@ -39,11 +39,11 @@ Page({
       }
     })
 
-    wx.playBackgroundAudio({
-      dataUrl: this.data.music_url,
-      title: '',
-      coverImgUrl: ''
-    })
+    // wx.playBackgroundAudio({
+    //   dataUrl: this.data.music_url,
+    //   title: '',
+    //   coverImgUrl: ''
+    // })
   },
   onReady: function() {
     // 页面渲染完成
