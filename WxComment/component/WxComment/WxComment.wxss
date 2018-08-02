@@ -1,6 +1,6 @@
 image, video {
   width: 100%;
-  margin: 0 auto 20rpx auto;
+  margin: 0 auto auto auto;
 }
 
 image {
@@ -122,7 +122,7 @@ image {
   color: #425888;
   font-size: 24rpx;
   height: 30rpx;
-  line-height: 30rpx;
+ 
 }
 
 .no_comment {
