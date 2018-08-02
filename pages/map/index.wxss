@@ -14,7 +14,7 @@
 
 .bottomImg{
   width: 100%;
-   min-height: 0;
+  min-height: 0;
   position: fixed;
   bottom: 0;
 }
