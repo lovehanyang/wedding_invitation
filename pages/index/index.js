@@ -8,7 +8,9 @@ Page({
     userInfo: {},
     music_url: 'http://pcgm4rcvg.bkt.clouddn.com/marry/music/yudao.aac',
     isPlayingMusic: true,
-  
+    title: '我们结婚啦',
+    coverImgUrl: 'http://pcgm4rcvg.bkt.clouddn.com/marry/img/music_cover.jpg',
+
 
     testimgUrls: [
       'http://pcgm4rcvg.bkt.clouddn.com/marry/img1.jpg',
@@ -23,7 +25,7 @@ Page({
       'http://pcgm4rcvg.bkt.clouddn.com/marry/img10.jpg',
       'http://pcgm4rcvg.bkt.clouddn.com/marry/img11.jpg',
       'http://pcgm4rcvg.bkt.clouddn.com/marry/img12.jpg',
-  
+
     ],
 
 
@@ -41,8 +43,8 @@ Page({
 
     wx.playBackgroundAudio({
       dataUrl: this.data.music_url,
-      title: 'join lovehanyang’s wedding',
-      coverImgUrl: ''
+      title: this.data.title,
+      coverImgUrl: this.data.coverImgUrl
     })
   },
   onReady: function() {
@@ -86,8 +88,8 @@ Page({
     } else {
       wx.playBackgroundAudio({
         dataUrl: this.data.music_url,
-        title: 'join lovehanyang’s wedding',
-        coverImgUrl: ''
+        title: this.data.title,
+        coverImgUrl: this.data.coverImgUrl
       })
       this.setData({
         isPlayingMusic: true

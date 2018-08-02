@@ -132,6 +132,7 @@ image {
 .title_display {
   width: 720rpx;
   display: flex;
+  margin-left: 40rpx;
   flex-direction: row;
   padding-bottom: 2rpx;
   /*border-bottom: 1px solid #f1f1f1;*/
