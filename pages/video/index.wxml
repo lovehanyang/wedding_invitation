@@ -7,8 +7,8 @@
 
       <video class="myVideo" src='{{item.src}}' objectFit="fill"></video>
       <view class='video-des'>
-        <text class='video_title'>标题:{{item.title}}</text>
-        <text class='video_time'>时间：{{item.create_time}}</text>
+        <text class='video_title'>{{item.title}}</text>
+        <text class='video_time'>{{item.desc}}</text>
       </view>
     </view>
   </view>

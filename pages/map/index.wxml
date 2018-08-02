@@ -2,6 +2,10 @@
 <view class="container">
 
   <view class="map">
-    <map id="map" longitude="{{lng}}" latitude="{{lat}}" scale="18" controls="{{controls}}" markers="{{markers}}" bindmarkertap="markertap" show-location style="width: 750rpx; height: 100vh"></map>
+    <map id="map" longitude="{{lng}}" latitude="{{lat}}" scale="18" controls="{{controls}}" markers="{{markers}}" bindmarkertap="markertap" show-location style="width: 750rpx; height: 85vh"></map>
   </view>
+
+    <view class="befirst">
+          <image src="/images/map_bottom_new.png" mode="widthFix" />
+        </view>
 </view>

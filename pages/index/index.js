@@ -25,6 +25,9 @@ Page({
       'http://pcgm4rcvg.bkt.clouddn.com/marry/img10.jpg',
       'http://pcgm4rcvg.bkt.clouddn.com/marry/img11.jpg',
       'http://pcgm4rcvg.bkt.clouddn.com/marry/img12.jpg',
+      'http://pcgm4rcvg.bkt.clouddn.com/marry/img13.jpg',
+      'http://pcgm4rcvg.bkt.clouddn.com/marry/img14.jpg',
+      'http://pcgm4rcvg.bkt.clouddn.com/marry/img15.jpg',
 
     ],
 
@@ -41,11 +44,25 @@ Page({
       }
     })
 
-    wx.playBackgroundAudio({
-      dataUrl: this.data.music_url,
-      title: this.data.title,
-      coverImgUrl: this.data.coverImgUrl
-    })
+
+    const backgroundAudioManager = wx.getBackgroundAudioManager()
+    player()
+    function player() {
+      backgroundAudioManager.title = that.data.title,
+        backgroundAudioManager.src = that.data.music_url
+      backgroundAudioManager.coverImgUrl = that.data.coverImgUrl
+      backgroundAudioManager.play();
+
+      backgroundAudioManager.onEnded(() => {
+        player()
+      })
+    }
+
+  //   wx.playBackgroundAudio({
+  //     dataUrl: this.data.music_url,
+  //     title: this.data.title,
+  //     coverImgUrl: this.data.coverImgUrl
+  //   })
   },
   onReady: function() {
     // 页面渲染完成

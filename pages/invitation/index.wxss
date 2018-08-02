@@ -1,7 +1,7 @@
 /* pages/invitation/index.wxss */
 
 .container {
-  background: url('http://pcgm4rcvg.bkt.clouddn.com/invite_page_new.jpg') no-repeat center;
+  background: url('http://pcgm4rcvg.bkt.clouddn.com/new_invite_page.jpg') no-repeat center;
   background-size: cover;
   width: 750rpx;
   height: 100vh;
@@ -91,7 +91,7 @@
   font-size: 20rpx;
   line-height: 50rpx;
   margin-top: 20rpx;
-  margin-bottom: 20rpx;
+  margin-bottom: 40rpx;
 }
 
 /* display: flex;
@@ -99,12 +99,12 @@
   justify-content: center; */
 
 .tel_he {
-  width: 300rpx;
+  width: 250rpx;
   float: left;
 }
 
 .tel_she {
-  width: 300rpx;
+  width: 250rpx;
   float: right;
 }
 
