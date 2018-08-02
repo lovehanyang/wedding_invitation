@@ -1,5 +1,4 @@
 // pages/map/index.js
-const txvContext = requirePlugin("tencentvideo");
 const app = getApp()
 var server = app.globalData.server;
 var appid = app.globalData.appid;
