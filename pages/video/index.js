@@ -2,6 +2,15 @@
 const app = getApp()
 var server = app.globalData.server;
 var appid = app.globalData.appid;
+
+const AV = require("../../WxComment/libs/leancloud/av-weapp-min.js");
+var Common = require('../../WxComment/libs/scripts/common.js');
+// LeanCloud 应用的 ID 和 Key
+// AV.init({
+//   appId: 'Q7y6ChsRaO66w6DLJ7XR0IF9-gzGzoHsz',
+//   appKey: 'tO9g5jhd0ETAx2vrRtR1NLp5',
+// });
+
 Page({
 
   /**
@@ -13,7 +22,7 @@ Page({
     movieList:
 
       [{
-        img:"http://pcgm4rcvg.bkt.clouddn.com/marry/video1532782634171.mp4?vframe/jpg/offset/7/rotate/auto",
+          img: "http://pcgm4rcvg.bkt.clouddn.com/marry/video1532782634171.mp4?vframe/jpg/offset/7/rotate/auto",
           desc: "缘分来得早或者迟，没有关系，遇见你，就是我最好的时光",
           time: 1532519734589,
           title: "海边",
@@ -21,7 +30,7 @@ Page({
           src: "http://pcgm4rcvg.bkt.clouddn.com/marry/video1532782634171.mp4"
         },
         {
-          img:"http://pcgm4rcvg.bkt.clouddn.com/marry/video1532871405425.mp4?vframe/jpg/offset/3/rotate/auto",
+          img: "http://pcgm4rcvg.bkt.clouddn.com/marry/video1532871405425.mp4?vframe/jpg/offset/3/rotate/auto",
           desc: "阳光与你同在，就是我想要的未来",
           time: 1532519734589,
           title: "绿地",
@@ -52,6 +61,43 @@ Page({
         })
       }
     })
+
+    var query = new AV.Query('VideoList');
+    query.include('src');
+    console.log('韩洋1');
+    query.find().then(function(videoList) {
+      // 将返回结果返回到 data 数据中，以在 wxml 渲染
+
+     
+      console.log('韩洋4:' + videoList.length);
+
+      for (var i = 0, len = videoList.length; i < len; i++) {
+
+        var str = JSON.stringify(videoList[i]);
+        var obj = JSON.parse(str);
+        that.data.movieList.unshift(obj);
+        console.log('韩洋9' + obj.name);//遍历输出
+      }
+
+      that.setData({   
+        movieList: that.data.movieList
+      })
+
+    }, function(err) {
+      console.log(err);
+    });
+  
+
+
+
+
+
+
+
+
+
+
+
 
 
 
