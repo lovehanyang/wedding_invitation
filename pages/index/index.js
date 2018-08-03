@@ -2,6 +2,14 @@
 //获取应用实例
 const app = getApp()
 var appid = app.globalData.appid;
+const AV = require("../../WxComment/libs/leancloud/av-weapp-min.js");
+var Common = require('../../WxComment/libs/scripts/common.js');
+// LeanCloud 应用的 ID 和 Key
+// AV.init({
+//   appId: 'Q7y6ChsRaO66w6DLJ7XR0IF9-gzGzoHsz',
+//   appKey: 'tO9g5jhd0ETAx2vrRtR1NLp5',
+// });
+
 
 Page({
   data: {
@@ -43,6 +51,32 @@ Page({
         })
       }
     })
+
+
+    var query = new AV.Query('ImageList');
+    query.include('src');
+    query.find().then(function (imageList) {
+      // 将返回结果返回到 data 数据中，以在 wxml 渲染
+
+
+      console.log('韩洋4:' + imageList.length);
+
+      for (var i = 0, len = imageList.length; i < len; i++) {
+
+        var str = JSON.stringify(imageList[i]);
+        var obj = JSON.parse(str);
+        that.data.testimgUrls.unshift(obj.src);
+        console.log('韩洋9' + obj.src);//遍历输出
+      }
+
+      that.setData({
+        testimgUrls: that.data.testimgUrls
+      })
+
+    }, function (err) {
+      console.log(err);
+    });
+
 
 
     /**
