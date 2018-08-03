@@ -48,18 +48,18 @@ Page({
     /**
      * 不支持aac格式
      */
-    // const backgroundAudioManager = wx.getBackgroundAudioManager()
-    // player()
-    // function player() {
-    //   backgroundAudioManager.title = that.data.title,
-    //   backgroundAudioManager.src = that.data.music_url
-    //   backgroundAudioManager.coverImgUrl = that.data.coverImgUrl
-    //   backgroundAudioManager.play();
+    const backgroundAudioManager = wx.getBackgroundAudioManager()
+    player()
+    function player() {
+      backgroundAudioManager.title = that.data.title,
+      backgroundAudioManager.src = that.data.music_url
+      backgroundAudioManager.coverImgUrl = that.data.coverImgUrl
+      backgroundAudioManager.play();
 
-    //   backgroundAudioManager.onEnded(() => {
-    //     player()
-    //   })
-    // }
+      backgroundAudioManager.onEnded(() => {
+        player()
+      })
+    }
 
     // wx.playBackgroundAudio({
     //   dataUrl: this.data.music_url,
