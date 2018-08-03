@@ -13,6 +13,7 @@ Page({
     movieList:
 
       [{
+        img:"http://pcgm4rcvg.bkt.clouddn.com/marry/video1532782634171.mp4?vframe/jpg/offset/7/rotate/auto",
           desc: "缘分来得早或者迟，没有关系，遇见你，就是我最好的时光",
           time: 1532519734589,
           title: "海边",
@@ -20,6 +21,7 @@ Page({
           src: "http://pcgm4rcvg.bkt.clouddn.com/marry/video1532782634171.mp4"
         },
         {
+          img:"http://pcgm4rcvg.bkt.clouddn.com/marry/video1532871405425.mp4?vframe/jpg/offset/3/rotate/auto",
           desc: "阳光与你同在，就是我想要的未来",
           time: 1532519734589,
           title: "绿地",
@@ -27,6 +29,7 @@ Page({
           src: "http://pcgm4rcvg.bkt.clouddn.com/marry/video1532871405425.mp4"
         },
         {
+          img: "http://pcgm4rcvg.bkt.clouddn.com/marry/video1532963841560.mp4?vframe/jpg/offset/1/rotate/auto",
           desc: "大步大步地跑向你，像海洋歌颂旭日一样，歌颂我爱的你~",
           time: 1532519734589,
           title: "喷泉",

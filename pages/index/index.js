@@ -6,20 +6,20 @@ var appid = app.globalData.appid;
 Page({
   data: {
     userInfo: {},
-    music_url: 'http://pcgm4rcvg.bkt.clouddn.com/marry/music/yudao.aac',
+    music_url: 'http://pcgm4rcvg.bkt.clouddn.com/bgmusic_yudao.mp3',
     isPlayingMusic: true,
     title: '我们结婚啦',
     coverImgUrl: 'http://pcgm4rcvg.bkt.clouddn.com/marry/img/music_cover.jpg',
 
 
     testimgUrls: [
-      'http://pcgm4rcvg.bkt.clouddn.com/marry/img1.jpg',
+      'http://pcgm4rcvg.bkt.clouddn.com/marry/img16.jpg',
       'http://pcgm4rcvg.bkt.clouddn.com/marry/img2.jpg',
       'http://pcgm4rcvg.bkt.clouddn.com/marry/img3.jpg',
       'http://pcgm4rcvg.bkt.clouddn.com/marry/img4.jpg',
       'http://pcgm4rcvg.bkt.clouddn.com/marry/img5.jpg',
       'http://pcgm4rcvg.bkt.clouddn.com/marry/img6.jpg',
-      'http://pcgm4rcvg.bkt.clouddn.com/marry/img7.jpg',
+      'http://pcgm4rcvg.bkt.clouddn.com/marry/img17.jpg',
       'http://pcgm4rcvg.bkt.clouddn.com/marry/img8.jpg',
       'http://pcgm4rcvg.bkt.clouddn.com/marry/img9.jpg',
       'http://pcgm4rcvg.bkt.clouddn.com/marry/img10.jpg',
@@ -45,24 +45,30 @@ Page({
     })
 
 
-    // const backgroundAudioManager = wx.getBackgroundAudioManager()
-    // player()
-    // function player() {
-    //   backgroundAudioManager.title = that.data.title,
-    //     backgroundAudioManager.src = that.data.music_url
-    //   backgroundAudioManager.coverImgUrl = that.data.coverImgUrl
-    //   backgroundAudioManager.play();
+    /**
+     * 不支持aac格式
+     */
+    const backgroundAudioManager = wx.getBackgroundAudioManager()
+    player()
+    function player() {
+      backgroundAudioManager.title = that.data.title,
+        backgroundAudioManager.src = that.data.music_url
+      backgroundAudioManager.coverImgUrl = that.data.coverImgUrl
+      backgroundAudioManager.play();
 
-    //   backgroundAudioManager.onEnded(() => {
-    //     player()
-    //   })
-    // }
+      backgroundAudioManager.onEnded(() => {
+        player()
+      })
+    }
 
-    wx.playBackgroundAudio({
-      dataUrl: this.data.music_url,
-      title: this.data.title,
-      coverImgUrl: this.data.coverImgUrl
-    })
+    // wx.playBackgroundAudio({
+    //   dataUrl: this.data.music_url,
+    //   title: this.data.title,
+    //   coverImgUrl: this.data.coverImgUrl
+    // })
+
+  
+
   },
   onReady: function() {
     // 页面渲染完成

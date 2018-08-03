@@ -5,7 +5,7 @@
   <view class="face" wx:for="{{movieList}}" wx:key="user">
     <view class='movie-list' catchtap="openDetail">
 
-      <video class="myVideo" src='{{item.src}}' objectFit="fill"></video>
+      <video class="myVideo" src='{{item.src}}' objectFit="fill" poster='{{item.img}}'></video>
       <view class='video-des'>
         <text class='video_title'>{{item.title}}</text>
         <text class='video_time'>{{item.desc}}</text>
