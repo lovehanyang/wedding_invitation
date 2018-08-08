@@ -1,6 +1,7 @@
 {
-    "navigationBarTitleText": "留言评论",
-    "usingComponents": {
-      "WxComment": "/WxComment/component/WxComment/WxComment"
-    }
+  "navigationBarTitleText": "留言评论",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "WxComment": "/WxComment/component/WxComment/WxComment"
+  }
 }

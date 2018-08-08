@@ -1,10 +1,29 @@
 <!--pages/bless/index.wxml-->
 <view class="container">
-
+<image src='/images/t1.png' class='t1'></image>
   <view class="map">
-    <map id="map" longitude="{{lng}}" latitude="{{lat}}" scale="18" controls="{{controls}}" markers="{{markers}}" bindmarkertap="markertap" show-location style="width: 750rpx; height: 90vh"></map>
+    <map id="map" longitude="{{lng}}" latitude="{{lat}}" scale="18" controls="{{controls}}" markers="{{markers}}" bindmarkertap="markertap" show-location ></map>
   </view>
   <view class="bottomImg">
     <image src="/images/map_bottom_new.png" mode="widthFix" />
   </view>
+
+    <view class="tel">
+    <view class="tel_he">
+      <view class="call" bindtap="callhe">
+        <image src="/images/he.png" width="100%" />
+      </view>
+      呼叫新郎
+    </view>
+    <view class="tel_she">
+      <view class="call" bindtap="callshe">
+        <image src="/images/she.png" width="100%" />
+      </view>
+      呼叫新娘
+    </view>
+  </view>
+  <view class='copyright'>MADE WITH ❤ BY 韩洋 & 阚旭</view>
+  <view class='copyright'>©2018.10.3</view>
 </view>
+
+<!-- style="width: 750rpx; height: 90vh" -->

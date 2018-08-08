@@ -41,6 +41,7 @@ Page({
 
 
   },
+ 
   onLoad: function() {
     var that = this
 
@@ -52,10 +53,9 @@ Page({
       }
     })
 
-
     var query = new AV.Query('ImageList');
     query.include('src');
-    query.find().then(function (imageList) {
+    query.find().then(function(imageList) {
       // 将返回结果返回到 data 数据中，以在 wxml 渲染
 
 
@@ -66,14 +66,14 @@ Page({
         var str = JSON.stringify(imageList[i]);
         var obj = JSON.parse(str);
         that.data.testimgUrls.unshift(obj.src);
-        console.log('韩洋9' + obj.src);//遍历输出
+        console.log('韩洋9' + obj.src); //遍历输出
       }
 
       that.setData({
         testimgUrls: that.data.testimgUrls
       })
 
-    }, function (err) {
+    }, function(err) {
       console.log(err);
     });
 
@@ -84,9 +84,10 @@ Page({
      */
     const backgroundAudioManager = wx.getBackgroundAudioManager()
     player()
+
     function player() {
       backgroundAudioManager.title = that.data.title,
-      backgroundAudioManager.src = that.data.music_url
+        backgroundAudioManager.src = that.data.music_url
       backgroundAudioManager.coverImgUrl = that.data.coverImgUrl
       backgroundAudioManager.play();
 
@@ -101,7 +102,7 @@ Page({
     //   coverImgUrl: this.data.coverImgUrl
     // })
 
-  
+
 
   },
   onReady: function() {

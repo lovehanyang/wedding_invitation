@@ -1,17 +1,17 @@
 {
-  "pages":[
-    "pages/index/index",
+  "pages": [
     "pages/invitation/index",
+    "pages/index/index",
     "pages/video/index",
     "pages/map/index",
     "pages/chat/index"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "韩洋❤阚旭 Married",
-    "navigationBarTextStyle":"black",
-    "enablePullDownRefresh":false
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": false
   },
   "tabBar": {
     "color": "#ccc",
@@ -20,16 +20,16 @@
     "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath": "pages/index/index",
-        "iconPath": "images/1.png",
-        "selectedIconPath": "images/1.png",
-        "text": "婚纱照"
-      },
-      {
         "pagePath": "pages/invitation/index",
         "iconPath": "images/2.png",
         "selectedIconPath": "images/2.png",
         "text": "邀请函"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/1.png",
+        "text": "婚纱照"
       },
       {
         "pagePath": "pages/video/index",
@@ -52,6 +52,3 @@
     ]
   }
 }
-
- 
-  
